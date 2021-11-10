@@ -1,2 +1,3 @@
-line_num: true
-exit_command: exit
+line_num:true
+exit_command:exit
+change_property:property
