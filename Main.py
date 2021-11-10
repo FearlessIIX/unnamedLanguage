@@ -33,10 +33,10 @@ def get_shell_att():
         # creates file to contain shell attributes, then writes in the default values
         shell_att_file = open("kitShellAtt.txt", "x")
         for att in default_shell_att:
-            shell_att_file.write(att)
+            shell_att_file.write(f"{att}\n")
         # returning the default shell attributes
         return default_shell_att
-
+    shell_att_file.close()
     return shell_att
 
 
